@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Layouting & Linking</title>
+	<link rel="stylesheet" href="style.css">
+
+	<script src="contact.js"></script>
+
+</head>
+<body>
+	<nav>
+		<div class="left-side">
+			<img src="assets/rog2.png"/>
+			<ul>
+				<li><a href="index.html"class="list-active">Home</a></li>
+				<li><a href="">Blog</a></li>
+			</ul>
+		</div>
+
+		<div class="right-side">
+			<a href="contact-form.html">Contact Me</a>
+		</div>
+
+	</nav>
+	<center>
+		<div style="background-color: white;
+			        border: 1px solid rgb(206, 206, 206);
+					width: 300px;
+					border-radius: 10px;
+					padding: 0px 30px;
+					margin-top: 10px;
+				    box-shadow: 0px 0px 9px rgb(206, 206, 206);">
+		   <div style="margin-top: 50px; margin-bottom: 50px; width: 300px; font-family: sans-serif;">
+		   	  <h1>Contact</h1>
+				<form>
+					<div style="margin-bottom: 15px;text-align: left; font-weight: bold;">
+						<label for="input-name">Name</label>
+						<input id="input-name" type="text" name="Name" placeholder="Name" 
+						       style="width: 100%; 
+						              padding: 10px; 
+						              margin-top: 7px; 
+						              background-color: #eaeaea; 
+						              border-radius: 7px;
+						              border-width: 3px;
+						              box-sizing: border-box;" />
+					</div>
+
+					<div style="margin-bottom: 15px; text-align: left; font-weight: bold;">
+					    <label for="input-email">Email</label>
+						<input id="input-email" type="text" name="Email" placeholder="Email" 
+							   style="width: 100%; 
+							          padding: 10px; 
+							          margin-top: 7px; 
+							          background-color: #eaeaea; 
+							          border-radius: 7px;
+							          border-width: 3px;
+							          box-sizing: border-box;" />
+					</div>
+
+					<div style="margin-bottom: 15px; text-align: left; font-weight: bold;">
+					    <label for="input-phone-number">Phone Number</label>
+						<input id="input-phone-number" type="text" name="Phone Number" placeholder="Phone Number" 
+						       style="width: 100%; 
+						       		  padding: 10px; 
+						       		  margin-top: 7px; 
+						       		  background-color: #eaeaea; 
+						       		  border-radius: 7px;
+						       		  border-width: 3px;
+						       		  box-sizing: border-box;" />
+					</div>
+
+					<div style="margin-bottom: 15px; text-align: left; font-weight: bold;">
+					    <label for="input-subject">Subject</label>
+						<select id="input-subject" type="text" style="width: 100%; 
+						              padding: 10px;
+						              margin-top: 7px; 
+						              background-color: #eaeaea; 
+						              border-radius: 7px;
+						              border-width: 3px;
+						              font-weight: bold;">		
+						    <option>Pertama</option>
+							<option>Kedua</option>
+							<option>Ketiga</option>
+						</select>
+				    </div> 
+
+				    <div style="margin-bottom: 15px; text-align: left; font-weight: bold;">
+					    <label for="input-textarea">Your Message</label>
+						<textarea id="input-textarea" type="text" name="textarea" style="width: 100%; 
+										padding: 20px 0px;
+						   				margin-top: 7px; 
+						   				background-color: #eaeaea; 
+						   				border-radius: 7px;
+						   				border-width: 3px;
+						   				box-sizing: border-box;"/>	   			
+						</textarea>
+				    </div>
+
+
+				    <div style="text-align: left;">
+					    <button type ="button" onclick="submitForm()" style="color: white;
+					                   padding: 5px 20px 5px 20px; 
+					    			   background-color: red; 
+					    			   border-radius: 7px;
+					    			   ">Submit
+					    </button>   
+		       </form>
+		   </div>
+		</div>
+    </center>
+</body>
+</html>

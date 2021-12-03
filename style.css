@@ -1,0 +1,146 @@
+* {
+	font-family: 'Verdana', Helvetica, sans-serif;
+
+}
+
+body {
+	margin: 0;
+	background-color: #eaeaea;
+}
+
+nav {
+	background-color: white;
+	display: flex;
+
+}
+
+nav .left-side {
+	flex: 50%;
+	display: flex;
+	align-items: center;
+}
+
+nav .left-side {
+	padding-left: 90px;
+}
+
+nav .left-side img {
+	width: 50px;
+}
+
+nav .left-side ul {
+	display: inline;
+
+}
+
+nav .left-side ul li {
+	display: inline;
+	margin-left: 40px;
+}
+
+nav .left-side a {
+	text-decoration: none;
+	color: black;
+}
+
+nav .left-side .list-active {
+	color: red;
+}
+
+nav .right-side {
+	flex: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 90px;
+}
+
+nav .right-side a {
+	text-decoration: none;
+	background-color: red;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 10px;
+}
+
+/* Card Personal*/
+/*Maksimal VH = 100 */
+
+.container-card {
+	height: 93vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 70px;
+
+}
+
+.container-card-and-content {
+	display: flex;
+	width: 80%;
+	
+}
+
+.card-personal {
+	flex: 40%;
+
+}
+
+.right-content {
+	flex: 60%;
+}
+
+.right-content h1 {
+	padding-left: 25px;
+	margin-left: 20px;
+}
+
+.right-content p {
+	color: grey;
+	line-height: 25px;
+	text-align: justify;
+	padding-left: 40px;
+}
+
+.container-ability {
+	display: flex;
+}
+
+.container-ability div {
+	padding-right: 40px;
+	margin-left: 40px;
+
+}
+
+.container-ability img {
+	width: 100px;
+}
+
+.container-ability p {
+   margin-left: -35px;
+}
+
+.container-social {
+	flex: 60%;
+
+}
+
+.container-social h3 {
+	padding-left: 40px;
+
+   
+}
+
+.container-social2 {
+	display: flex;
+	margin-left: 30px;
+}
+
+.container-social2 div img {
+	width: 40px;
+	padding-left: 10px;
+}
+
+
+
+
